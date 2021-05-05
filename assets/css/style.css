@@ -8,15 +8,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   height: 100vh;
   margin: auto;
   background-color: lightsteelblue;
+  background-image: url(../img/sfondo.jpg);
 }
 
 .carousel-wrapper{
   position: relative;
-  width: 80%;
+  width: 50%;
   height: 70%;
 }
 
@@ -24,9 +25,9 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 55px;
+  font-size: 75px;
   cursor: pointer;
-  color: rgb(80, 78, 78);
+  color: rgb(231, 227, 227);
 }
 
 .next{
@@ -34,7 +35,7 @@
 }
 
 .prev:hover, .next:hover{
-  color: black;
+  color: white;
 }
 
 .slides{
@@ -53,9 +54,9 @@ img{
   left: 50%;
   bottom: -12%;
   transform: translateX(-50%);
-  padding: 15px;
+  padding: 12px;
   border-radius: 999px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .circle:hover{
@@ -69,7 +70,7 @@ img{
 }
 
 .circle i.active{
-  color: limegreen;
+  color: rgb(90, 89, 89);
 }
 
 .text-autoplay{
@@ -77,6 +78,15 @@ img{
   bottom: -18%;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-autoplay:hover{
+  background-color:  rgba(0, 0, 0, 0.9);
 }
 
 .text-autoplay i{
@@ -84,7 +94,7 @@ img{
 }
 
 .text-autoplay span{
-  cursor: pointer;
+  cursor: pointer;  
   text-transform: uppercase;
   text-decoration: underline;
 }
