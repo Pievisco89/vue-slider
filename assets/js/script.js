@@ -7,7 +7,7 @@ const app = new Vue({
       'assets/img/().jpg',
       'assets/img/agaetis-byrjun.jpg',
       'assets/img/kveikur.jpg',
-      'assets/img/takk.jpg'
+      'assets/img/takk.jpg',
     ],
   },
   methods:{
