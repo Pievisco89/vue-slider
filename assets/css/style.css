@@ -51,7 +51,7 @@ img{
 .circle{
   position: absolute;
   left: 50%;
-  bottom: -15%;
+  bottom: -12%;
   transform: translateX(-50%);
   padding: 15px;
   border-radius: 999px;
@@ -70,4 +70,21 @@ img{
 
 .circle i.active{
   color: limegreen;
+}
+
+.text-autoplay{
+  position: absolute;
+  bottom: -18%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-autoplay i{
+  font-size: 10px;
+}
+
+.text-autoplay span{
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
