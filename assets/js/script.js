@@ -21,8 +21,8 @@ const app = new Vue({
     },
     autoPlay(){
       setInterval((this.nextImg), 3000);
-    }   
-    
+    }
+
   }
 
 });
