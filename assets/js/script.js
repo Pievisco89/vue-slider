@@ -20,7 +20,10 @@ const app = new Vue({
       if(this.counterImg === this.images.length) this.counterImg = 0;
     },
     autoPlay(){
-      setInterval((this.nextImg), 3000);
+      this.stopPlay = setInterval((this.nextImg), 3000);
+    },
+    stopAutoPlay(){
+      clearInterval(this.stopPlay);
     }
 
   }

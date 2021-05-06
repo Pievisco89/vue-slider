@@ -98,6 +98,7 @@ img{
 
 .text-autoplay span{
   cursor: pointer;  
+  padding: 10px;
   text-transform: uppercase;
   text-decoration: underline;
 }
